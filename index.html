@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Animation Effect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="cursor"></div>
+
+    <div id="animated-bg"></div>
+
+    <div class="nav-links">
+      <ul>
+        <li id="scene1">
+          <a data-depth="0.5" class="active layer" href="#" data-link="Home" data-src="bg2">Home</a>
+        </li>
+        <li id="scene2">
+          <a data-depth="-0.5" class="layer" href="#" data-link="about" data-src="bg3">About</a>
+        </li>
+        <li id="scene3">
+          <a data-depth="0.5" class="layer" href="#" data-link="Services" data-src="bg4">Services</a>
+        </li>
+        <li id="scene4">
+          <a data-depth="-0.5" class="layer" href="#" data-link="Portfolio" data-src="bg5">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+    <div class="lines-container">
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+      <span class="lines"></span>
+    </div>
+
+    <script src="js/parallax.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
